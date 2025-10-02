@@ -1,0 +1,4 @@
+package com.api.Job_Portal.util;
+
+public class EmailSender {
+}
