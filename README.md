@@ -36,49 +36,6 @@ This application is ideal for learning Spring Boot, implementing role-based acce
 ---
 
 ## Project Structure
-It’s 05:20 PM IST on Friday, October 03, 2025. Below is a detailed and explanatory `README.md` file that covers the entire "Job Portal" project based on our conversation history. This README provides an overview, setup instructions, usage details, API documentation, and troubleshooting tips to make the project accessible and understandable to developers.
-
----
-
-```markdown
-# Job Portal Application
-
-## Overview
-
-The **Job Portal Application** is a Spring Boot-based web application designed to facilitate job postings, applications, and user management. Built with Java 21 and leveraging modern frameworks like Spring Security, Spring Data JPA, and Springdoc OpenAPI, this project provides a RESTful API for managing job listings, user authentication, and application tracking. It supports multiple user roles (USER, EMPLOYER, ADMIN) with JWT-based authentication to ensure secure access to resources.
-
-This application is ideal for learning Spring Boot, implementing role-based access control, and integrating Swagger for API documentation. It includes a MySQL database for persistent storage and offers endpoints for registering users, posting jobs, applying to jobs, and managing user profiles.
-
----
-
-## Features
-
-- **User Authentication**: Register and log in with email, username, and password, secured with JWT tokens.
-- **Role-Based Access**: Supports three roles—USER (job seekers), EMPLOYER (job posters), and ADMIN (administrators) with specific permissions.
-- **Job Management**: Create, read, update, and delete job postings (restricted to EMPLOYERs).
-- **Job Applications**: Allow USERs to apply for jobs with resume URLs and track application status.
-- **User Management**: ADMINs can view, update, or delete user accounts; all users can update their own profiles.
-- **API Documentation**: Integrated Swagger UI for interactive API testing and documentation.
-- **Pagination**: Supports paginated responses for job listings and applications.
-
----
-
-## Technologies Used
-
-- **Java**: 21 (latest LTS version for robust performance).
-- **Spring Boot**: 3.5.6 (core framework for REST APIs and dependency management).
-- **Spring Security**: 6.5.5 (for authentication and authorization).
-- **Spring Data JPA**: For database operations with MySQL.
-- **MySQL**: 8.x (relational database for storing users, jobs, and applications).
-- **JWT**: JSON Web Tokens (via JJWT library) for secure authentication.
-- **Springdoc OpenAPI**: 2.6.0 (for Swagger UI and API documentation).
-- **Lombok**: Simplifies boilerplate code (e.g., getters, setters).
-- **Hibernate Validator**: For input validation.
-- **Maven**: Build and dependency management.
-
----
-
-## Project Structure
 
 ```
 Job_Portal/
