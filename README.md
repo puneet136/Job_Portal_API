@@ -214,6 +214,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - Inspired by Spring Boot tutorials and community resources.
 
-## Connect With me
+## Connect with Me
 
 - [LinkedIn]([https://www.linkedin.com/in/puneet-agrawal/]) 🔗
+```
